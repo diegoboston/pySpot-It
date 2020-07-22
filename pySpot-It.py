@@ -72,7 +72,6 @@ def make_pdf_file(cards, npics, order):
         # Make a new page after every 8 cards
         if not ii % 8:
                 c.showPage()
-                c.save()
                 ii = 0
                 Box_X = [0.5*inch,8.0*inch]
                 Box_Y = [10*inch,9*inch]
